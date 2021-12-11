@@ -7,6 +7,7 @@ import { TopBarComponent } from './top-bar/top-bar.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { AboutUSComponent } from './about-us/about-us.component';
 import { HomeComponent } from './home/home.component';
+import { CommingSoonComponent } from './comming-soon/comming-soon.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { HomeComponent } from './home/home.component';
     TopBarComponent,
     ContactUsComponent,
     AboutUSComponent,
-    HomeComponent
+    HomeComponent,
+    CommingSoonComponent
   ],
   imports: [
     BrowserModule,
