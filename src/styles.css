@@ -2,7 +2,6 @@
 .curved-div {
     color: #FFF;
     text-align: center;
-    width:100%;
   }
   .curved-div h1 {
     font-size: 6rem;
@@ -31,4 +30,12 @@
 
   .text-atcenter{
 text-align: center;
+  }
+
+  .heading{
+    font-size:2rem;
+  }
+
+  .m-ng1{
+    margin: 0px;
   }
