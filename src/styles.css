@@ -1,8 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 .curved-div {
-
     color: #FFF;
     text-align: center;
+    width:100%;
   }
   .curved-div h1 {
     font-size: 6rem;
@@ -16,3 +16,19 @@
     display: block;
   }
   
+  .bg-primdark{
+    background-color: #0E4458;
+  }
+
+  .text-atleft{
+    text-align: left;
+  }
+
+
+  .text-atright{
+    text-align: right;
+  }
+
+  .text-atcenter{
+text-align: center;
+  }
