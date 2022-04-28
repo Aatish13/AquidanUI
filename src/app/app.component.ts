@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AquidanUI';
+  isLoading  =true;
+
+ngOnInit() {
+this.isLoading = true;
 }
+ngAfterViewInit() {
+  this.isLoading = false;
+}
+  reloadCurrentPage() {
+    window.location.reload();
+   }
+}
+

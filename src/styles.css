@@ -18,6 +18,9 @@
   .bg-primdark{
     background-color: #0E4458;
   }
+  .text-primdark{
+    color: #0E4458;
+  }
 
   .text-atleft{
     text-align: left;

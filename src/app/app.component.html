@@ -1,4 +1,9 @@
 <!-- <app-comming-soon></app-comming-soon> -->
-<app-top-bar></app-top-bar>
-<router-outlet></router-outlet>
+<ng-container *ngIf="isLoading">
+<app-spinner></app-spinner>
+</ng-container>
 
+<ng-container *ngIf="!isLoading">
+    <app-top-bar></app-top-bar>
+    <router-outlet></router-outlet>
+</ng-container>
