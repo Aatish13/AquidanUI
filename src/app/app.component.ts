@@ -10,9 +10,10 @@ export class AppComponent {
   isLoading  =true;
 
 ngOnInit() {
-this.isLoading = true;
 }
 ngAfterViewInit() {
+  
+
   this.isLoading = false;
 }
   reloadCurrentPage() {
