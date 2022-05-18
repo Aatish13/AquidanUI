@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { CommingSoonComponent } from './comming-soon/comming-soon.component';
 import { SpinnerComponent } from './spinner/spinner.component';
 import { BottomBarComponent } from './bottom-bar/bottom-bar.component';
+import { GallaryComponent } from './gallary/gallary.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { BottomBarComponent } from './bottom-bar/bottom-bar.component';
     HomeComponent,
     CommingSoonComponent,
     SpinnerComponent,
-    BottomBarComponent
+    BottomBarComponent,
+    GallaryComponent
   ],
   imports: [
     BrowserModule,
